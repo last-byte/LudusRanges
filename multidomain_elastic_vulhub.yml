@@ -163,7 +163,7 @@ ludus:
       - badsectorlabs.ludus_elastic_agent
       - ludus_child_domain_join
     role_vars:
-      dc_ip: "10.2.10.10"
+      dc_ip: "10.2.20.10"
       dns_domain_name: "pear.macrohard.lol"
       domain_admin_user: "domainadmin@pear.macrohard.lol"  
       domain_admin_password: "C4tchmeifyoucan"
@@ -187,7 +187,7 @@ ludus:
       - badsectorlabs.ludus_elastic_agent
       - ludus_child_domain_join
     role_vars:
-      dc_ip: "10.2.10.10"
+      dc_ip: "10.2.20.10"
       dns_domain_name: "pear.macrohard.lol"
       domain_admin_user: "domainadmin@pear.macrohard.lol"  
       domain_admin_password: "C4tchmeifyoucan"
@@ -211,7 +211,7 @@ ludus:
       - badsectorlabs.ludus_elastic_agent
       - ludus_child_domain_join
     role_vars:
-      dc_ip: "10.2.10.10"
+      dc_ip: "10.2.20.10"
       dns_domain_name: "pear.macrohard.lol"
       domain_admin_user: "domainadmin@pear.macrohard.lol"  
       domain_admin_password: "C4tchmeifyoucan"
@@ -235,7 +235,7 @@ ludus:
       - badsectorlabs.ludus_elastic_agent
       - ludus_child_domain_join
     role_vars:
-      dc_ip: "10.2.10.10"
+      dc_ip: "10.2.20.10"
       dns_domain_name: "pear.macrohard.lol"
       domain_admin_user: "domainadmin@pear.macrohard.lol"  
       domain_admin_password: "C4tchmeifyoucan"
