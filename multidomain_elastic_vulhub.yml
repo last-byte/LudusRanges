@@ -243,7 +243,7 @@ ludus:
 # ==== MACROHARD FOREST ====
 
 # ==== OTHER SERVERS ====
-  - vm_name: "{{ range_id }}-Vulhub"
+  - vm_name: "{{ range_id }}-Debian-Vulhub"
     hostname: "vulhub"
     template: debian-12-x64-server-template
     vlan: 30
@@ -262,7 +262,7 @@ ludus:
         - phpmyadmin/CVE-2016-5734
         - libssh/CVE-2018-10933
 
-  - vm_name: "{{ range_id }}-Debian-SRV0"
+  - vm_name: "{{ range_id }}-Debian-Gitlab"
     hostname: "SRV0"
     template: debian-12-x64-server-template
     vlan: 30
