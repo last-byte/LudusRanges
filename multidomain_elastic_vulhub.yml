@@ -263,7 +263,7 @@ ludus:
         - libssh/CVE-2018-10933
 
   - vm_name: "{{ range_id }}-Debian-Gitlab"
-    hostname: "SRV0"
+    hostname: "gitlab"
     template: debian-12-x64-server-template
     vlan: 30
     ip_last_octet: 11
