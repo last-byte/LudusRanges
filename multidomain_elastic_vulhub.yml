@@ -165,8 +165,8 @@ ludus:
     role_vars:
       dc_ip: "10.2.20.10"
       dns_domain_name: "pear.macrohard.lol"
-      domain_admin_user: "domainadmin@pear.macrohard.lol"  
-      domain_admin_password: "C4tchmeifyoucan"
+      domain_admin_user: "administrator@pear.macrohard.lol"  
+      domain_admin_password: "password"
 
   - vm_name: "{{ range_id }}-Win11-WKST1-PEAR"
     hostname: "WKST1-PEAR"
@@ -189,8 +189,8 @@ ludus:
     role_vars:
       dc_ip: "10.2.20.10"
       dns_domain_name: "pear.macrohard.lol"
-      domain_admin_user: "domainadmin@pear.macrohard.lol"  
-      domain_admin_password: "C4tchmeifyoucan"
+      domain_admin_user: "administrator@pear.macrohard.lol"  
+      domain_admin_password: "password"
 
   - vm_name: "{{ range_id }}-Win11-WKST2-PEAR"
     hostname: "WKST2-PEAR"
@@ -213,8 +213,8 @@ ludus:
     role_vars:
       dc_ip: "10.2.20.10"
       dns_domain_name: "pear.macrohard.lol"
-      domain_admin_user: "domainadmin@pear.macrohard.lol"  
-      domain_admin_password: "C4tchmeifyoucan"
+      domain_admin_user: "administrator@pear.macrohard.lol"  
+      domain_admin_password: "password"
 
   - vm_name: "{{ range_id }}-Win11-WKST3-PEAR"
     hostname: "WKST3-PEAR"
@@ -237,8 +237,8 @@ ludus:
     role_vars:
       dc_ip: "10.2.20.10"
       dns_domain_name: "pear.macrohard.lol"
-      domain_admin_user: "domainadmin@pear.macrohard.lol"  
-      domain_admin_password: "C4tchmeifyoucan"
+      domain_admin_user: "administrator@pear.macrohard.lol"  
+      domain_admin_password: "password"
 # ==== PEAR.MACROHARD.LOL DOMAIN ====
 # ==== MACROHARD FOREST ====
 
