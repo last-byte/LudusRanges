@@ -262,7 +262,7 @@ ludus:
         - phpmyadmin/CVE-2016-5734
         - libssh/CVE-2018-10933
 
-   - vm_name: "{{ range_id }}-Debian-SRV0"
+  - vm_name: "{{ range_id }}-Debian-SRV0"
     hostname: "SRV0"
     template: debian-12-x64-server-template
     vlan: 10
