@@ -4,7 +4,7 @@ ludus:
   - vm_name: "{{ range_id }}-Elastic"
     hostname: "elastic"
     template: debian-12-x64-server-template
-    vlan: 1
+    vlan: 2
     ip_last_octet: 1
     ram_gb: 8
     cpus: 4
