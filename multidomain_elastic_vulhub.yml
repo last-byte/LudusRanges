@@ -246,8 +246,8 @@ ludus:
   - vm_name: "{{ range_id }}-Vulhub"
     hostname: "vulhub"
     template: debian-12-x64-server-template
-    vlan: 10
-    ip_last_octet: 200
+    vlan: 30
+    ip_last_octet: 10
     ram_gb: 4
     cpus: 2
     linux: true
@@ -265,8 +265,8 @@ ludus:
   - vm_name: "{{ range_id }}-Debian-SRV0"
     hostname: "SRV0"
     template: debian-12-x64-server-template
-    vlan: 10
-    ip_last_octet: 20
+    vlan: 30
+    ip_last_octet: 11
     ram_gb: 4
     cpus: 2
     linux: true
