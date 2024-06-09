@@ -25,7 +25,7 @@ ludus:
     template: win2019-server-x64-template
     vlan: 10
     ip_last_octet: 10
-    ram_gb: 8
+    ram_gb: 16
     cpus: 4
     windows:
       install_additional_tools: false
@@ -42,7 +42,7 @@ ludus:
     template: win2022-server-x64-template
     vlan: 10
     ip_last_octet: 11
-    ram_gb: 8
+    ram_gb: 16
     cpus: 4
     windows:
       install_additional_tools: false
@@ -130,7 +130,7 @@ ludus:
     template: win2019-server-x64-template
     vlan: 20
     ip_last_octet: 10
-    ram_gb: 8
+    ram_gb: 16
     cpus: 4
     windows:
       install_additional_tools: false
