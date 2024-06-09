@@ -20,9 +20,9 @@ ludus:
 
 # ==== MACROHARD FOREST ====
 # ==== MACROHARD.LOL DOMAIN ====
-  - vm_name: "{{ range_id }}-Win2019-DC1-ADCS-MACROHARD"
+  - vm_name: "{{ range_id }}-Win2016-DC1-ADCS-MACROHARD"
     hostname: "DC1-MACROHARD"
-    template: win2019-server-x64-template
+    template: win2016-server-x64-template
     vlan: 10
     ip_last_octet: 10
     ram_gb: 16
