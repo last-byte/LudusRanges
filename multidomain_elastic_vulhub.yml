@@ -277,7 +277,7 @@ ludus:
       - badsectorlabs.ludus_elastic_agent
       - ludus-gitlab-ce
     role_vars:
-      ludus_gitlab.displayname: 'Macrohard Gitlab'
+      ludus_gitlab.displayname: 'MacrohardGitlab'
 # ==== OTHER SERVERS ====
 
 
